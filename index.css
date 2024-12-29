@@ -18,10 +18,14 @@ header {
     text-align: center;
 }
 
-header > h1 {
+header > a > h1 {
     margin: 0;
     font-weight: 400;
     color: #161e25;
+}
+
+header > a {
+    text-decoration: none;
 }
 
 main {
